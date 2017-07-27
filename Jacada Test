@@ -1,0 +1,27 @@
+{
+"ticket":
+{
+"subject":"${subject}",
+"comment": { "body": "${comment}"},
+"requester": { "locale_id": 1, "name": "${cxname}", "email": "${email}", "phone": "${phonenum}"},
+"status" : "${status}",
+	"custom_fields": [
+
+ 		{ "21883364":  "${cxname}" },
+		{ "21883084":  "${address}" },
+		{ "22039510":  "${phonenum}" },
+		{ "80567027":  "${email}" },
+
+ 		{ "22039810":  "${Serialnumber}" },
+		{ "80418187":  "${dealer}" },
+		{ "80418187":  "${otherdealer}" },
+		{ "65781188":  "${modelnumber}" },
+
+		{ "22094700":  "${troublenotes}" },
+
+		{ "22015400":  "${Problem}"  },
+		{ "22663864":  "${Troubleshooting Action}" }
+	]
+}
+
+}
